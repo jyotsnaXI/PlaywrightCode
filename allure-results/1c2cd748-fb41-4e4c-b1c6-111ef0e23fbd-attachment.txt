@@ -1,0 +1,4 @@
+** User is on search employee page **
+Total search results found: 0
+Search result is false
+** User is on Medical Exam Information Page **
