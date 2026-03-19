@@ -2,7 +2,7 @@
     {
         "testName": "Valid login",
         "username": "JyotsnaGupta",
-        "password": "Admin@1234567",
+        "password": "Xebia@1234567",
         "expectedResult": "success"
     },
     {

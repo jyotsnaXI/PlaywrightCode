@@ -11,7 +11,7 @@ test('Login and save session', async ({ page, context }) => {
 
   // Perform login
   await loginPage.setUsername('JyotsnaGupta');
-  await loginPage.setPassword('');
+  await loginPage.setPassword('Xebia@123456');
   await loginPage.setCapcha('capchaInputField');
  // await loginPage.clickLogin();
 

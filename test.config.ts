@@ -4,7 +4,7 @@ export class TestConfig{
 
     //valid login credentials- create your own login account
     username="JyotsnaGupta"
-    password=""
+    password="Admin@123456"
     capchaInputField=""
 
     //product details

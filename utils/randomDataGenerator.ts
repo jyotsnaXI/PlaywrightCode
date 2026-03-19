@@ -1,6 +1,7 @@
 import { faker } from "@faker-js/faker";
+export 
 
-export class RandomDataUtil {
+ class RandomDataUtil {
 
     static getFirstName()
     {
@@ -22,8 +23,8 @@ export class RandomDataUtil {
 
     static getUserName()
     {
-        faker.internet.userName();
-        return faker.internet.userName();
+        faker.internet.username();
+        return faker.internet.username();
     }
 
     static getPassword()
@@ -36,5 +37,10 @@ export class RandomDataUtil {
     {
         faker.phone.number();
         return faker.phone.number();
+    }
+
+    static getrandomInt(min: 4, max: 6)
+    {
+        return faker.number.int({ min, max });
     }
 }

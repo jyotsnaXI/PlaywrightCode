@@ -1,0 +1,67 @@
+[
+  {
+    "EmployeeStatus": "Active",
+    "Title": "Mr",
+    "FirstName": "Automation",
+    "LastName": "SLB",
+    "Gender": "Female",
+    "MaritalStatus": "Single",
+    "DateOfBirth": "01-Mar-1980",
+    "Company": "Schlumberger",
+    "PrimaryEMail": "jyotsna.gupta@internationalsos.com",
+    "SecondaryEMail": "jyotsna.gupta@xebia.com",
+    "EmpCategory": "GeoMobile"
+  },
+  {
+    "EmployeeStatus": "Active",
+    "Title": "Mr",
+    "FirstName": "Automation",
+    "LastName": "BP",
+    "Gender": "Male",
+    "MaritalStatus": "Single",
+    "DateOfBirth": "01-Mar-1980",
+    "Company": "bp International Limited",
+    "PrimaryEMail": "jyotsna.gupta@internationalsos.com",
+    "SecondaryEMail": "jyotsna.gupta@xebia.com",
+    "EmpCategory": "HCC"
+  },
+  {
+    "EmployeeStatus": "Active",
+    "Title": "Mr",
+    "FirstName": "Automation",
+    "LastName": "RHT",
+    "Gender": "Female",
+    "MaritalStatus": "Single",
+    "DateOfBirth": "01-Mar-1980",
+    "Company": "Richemont",
+    "PrimaryEMail": "jyotsna.gupta@internationalsos.com",
+    "SecondaryEMail": "jyotsna.gupta@xebia.com",
+    "EmpCategory": "Intl. Mobile"
+  },
+  {
+    "EmployeeStatus": "Active",
+    "Title": "Mr",
+    "FirstName": "Automation",
+    "LastName": "KinrossOne",
+    "Gender": "Female",
+    "MaritalStatus": "Single",
+    "DateOfBirth": "01-Mar-1980",
+    "Company": "Kinross",
+    "PrimaryEMail": "jyotsna.gupta@internationalsos.com",
+    "SecondaryEMail": "jyotsna.gupta@xebia.com",
+    "EmpCategory": "GeoMobile"
+  },
+  {
+    "EmployeeStatus": "Pre-employee",
+    "Title": "Mr",
+    "FirstName": "Automation",
+    "LastName": "ETTwelve",
+    "Gender": "Male",
+    "MaritalStatus": "Single",
+    "DateOfBirth": "01-Mar-1950",
+    "Company": "Eramet",
+    "PrimaryEMail": "jyotsna.gupta@internationalsos.com",
+    "SecondaryEMail": "jyotsna.gupta@xebia.com",
+    "EmpCategory": "HC Mobile"
+  }
+]
