@@ -12,7 +12,7 @@ const jsonTestData=DataProvider.getTestDataFromJson(jsonPath);
 
 for(const data of jsonTestData)
 {
-   test(`Login Test with JSON Data: ${data.testName} @datadriven`, async({page})=>{
+   test(`Login Test with JSON Data: ${data.testName} @sanity`, async({page})=>{
 
         const config = new TestConfig(); // create instance
         await page.goto(config.appUrl);    // getting appURL from test.config.ts file
@@ -59,7 +59,7 @@ for(const data of csvTestData)
         if(data.expected.toLowerCase()==='success')
         {
             const searchEmpPage=new SearchEmployeePage(page);
-            const isLoggedIn=await loginPage.loginSuccess();
+            const isLoggedIn=await loginPage.verifyLoginSuccess();
             expect(isLoggedIn).toBeTruthy();
 
         }

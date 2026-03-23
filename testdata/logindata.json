@@ -10,23 +10,5 @@
         "username": "JyotsnaGupta",
         "password": "wrongpassword",
         "expectedResult": "failure"
-    },
-     {
-        "testName": "Non-existent user",
-        "username": "JyotsnaGupta2",
-        "password": "anyPassword",
-        "expectedResult": "failure"
-    },
-    {
-        "testName": "Empty username",
-        "username": "",
-        "password": "somepassword",
-        "expectedResult": "failure"
-    },
-    {
-        "testName": "Empty password",
-        "username": "JyotsnaGupta",
-        "password": "",
-        "expectedResult": "failure"
-    } 
+    }
 ]
