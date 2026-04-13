@@ -1,0 +1,6 @@
+** User is on search employee page **
+Table Exist!
+Number of rows in the table: 2
+Record with GIN 7915 exists in the table.
+** Scrolled down to element **
+** User is on Medical Exam Information Page **
