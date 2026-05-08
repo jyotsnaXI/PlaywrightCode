@@ -1,0 +1,224 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - table [ref=e3]:
+    - rowgroup [ref=e4]:
+      - 'row "Company Logo Powered by Intl. SOS Jyotsna Gupta (Intl. SOS Admin) | Last login date: 13-Mar-2026 10:49:46 Need Help? | My details | Change Password Log out Skip Navigation Links Search Employees Create New Employee Search Team Members Create Team Member Medical Exam Expirations Import Data Expand Import Data Reminders and Documents Expand Reminders and Documents Search Reviewed Exams Export Data Reports Expand Reports System Configuration Expand System Configuration Send Welcome Email Drop Box Expand Drop Box Maintenance Expand Maintenance COVID-19 Vaccination Expand COVID-19 Vaccination Medical Exam Medical History Vaccinations Tracking There are no medical exams found for this employee. Create Exam Cancel" [ref=e5]':
+        - 'cell "Company Logo Powered by Intl. SOS Jyotsna Gupta (Intl. SOS Admin) | Last login date: 13-Mar-2026 10:49:46 Need Help? | My details | Change Password Log out Skip Navigation Links Search Employees Create New Employee Search Team Members Create Team Member Medical Exam Expirations Import Data Expand Import Data Reminders and Documents Expand Reminders and Documents Search Reviewed Exams Export Data Reports Expand Reports System Configuration Expand System Configuration Send Welcome Email Drop Box Expand Drop Box Maintenance Expand Maintenance COVID-19 Vaccination Expand COVID-19 Vaccination Medical Exam Medical History Vaccinations Tracking There are no medical exams found for this employee. Create Exam Cancel" [ref=e6]':
+          - table [ref=e7]:
+            - rowgroup [ref=e8]:
+              - 'row "Company Logo Powered by Intl. SOS Jyotsna Gupta (Intl. SOS Admin) | Last login date: 13-Mar-2026 10:49:46 Need Help? | My details | Change Password Log out" [ref=e9]':
+                - 'cell "Company Logo Powered by Intl. SOS Jyotsna Gupta (Intl. SOS Admin) | Last login date: 13-Mar-2026 10:49:46 Need Help? | My details | Change Password Log out" [ref=e10]':
+                  - generic [ref=e11]:
+                    - generic:
+                      - img "Company Logo" [ref=e13]
+                      - img "Powered by Intl. SOS" [ref=e15]
+                    - table [ref=e17]:
+                      - rowgroup [ref=e18]:
+                        - 'row "Jyotsna Gupta (Intl. SOS Admin) | Last login date: 13-Mar-2026 10:49:46 Need Help? | My details | Change Password Log out" [ref=e19]':
+                          - 'cell "Jyotsna Gupta (Intl. SOS Admin) | Last login date: 13-Mar-2026 10:49:46 Need Help? | My details | Change Password" [ref=e20]':
+                            - strong [ref=e21]: Jyotsna Gupta
+                            - text: (Intl. SOS Admin)
+                            - strong [ref=e22]: "|"
+                            - strong [ref=e23]: "Last login date: 13-Mar-2026 10:49:46"
+                            - link "Need Help?" [ref=e24] [cursor=pointer]:
+                              - /url: javascript:__doPostBack('ctl00$lvWelcomeNote$lnkNeedHelp','')
+                            - strong [ref=e25]: "|"
+                            - link "My details" [ref=e26] [cursor=pointer]:
+                              - /url: javascript:__doPostBack('ctl00$lvWelcomeNote$UserView','')
+                            - strong [ref=e27]: "|"
+                            - link "Change Password" [ref=e28] [cursor=pointer]:
+                              - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$lvWelcomeNote$lnkChangePassword", "", false, "", "../UserManagement/ChangePassword.aspx?PersonalData=\'6tvp62h3flI%3d\'", false, true))
+                          - cell "Log out" [ref=e29]:
+                            - link "Log out" [ref=e30] [cursor=pointer]:
+                              - /url: "#"
+                              - button "Log out" [ref=e32]
+              - row "Skip Navigation Links Search Employees Create New Employee Search Team Members Create Team Member Medical Exam Expirations Import Data Expand Import Data Reminders and Documents Expand Reminders and Documents Search Reviewed Exams Export Data Reports Expand Reports System Configuration Expand System Configuration Send Welcome Email Drop Box Expand Drop Box Maintenance Expand Maintenance COVID-19 Vaccination Expand COVID-19 Vaccination Medical Exam Medical History Vaccinations Tracking There are no medical exams found for this employee. Create Exam Cancel" [ref=e33]:
+                - cell "Skip Navigation Links Search Employees Create New Employee Search Team Members Create Team Member Medical Exam Expirations Import Data Expand Import Data Reminders and Documents Expand Reminders and Documents Search Reviewed Exams Export Data Reports Expand Reports System Configuration Expand System Configuration Send Welcome Email Drop Box Expand Drop Box Maintenance Expand Maintenance COVID-19 Vaccination Expand COVID-19 Vaccination Medical Exam Medical History Vaccinations Tracking There are no medical exams found for this employee. Create Exam Cancel" [ref=e34]:
+                  - table [ref=e35]:
+                    - rowgroup [ref=e36]:
+                      - row "Skip Navigation Links Search Employees Create New Employee Search Team Members Create Team Member Medical Exam Expirations Import Data Expand Import Data Reminders and Documents Expand Reminders and Documents Search Reviewed Exams Export Data Reports Expand Reports System Configuration Expand System Configuration Send Welcome Email Drop Box Expand Drop Box Maintenance Expand Maintenance COVID-19 Vaccination Expand COVID-19 Vaccination Medical Exam Medical History Vaccinations Tracking There are no medical exams found for this employee. Create Exam Cancel" [ref=e37]:
+                        - cell "Skip Navigation Links Search Employees Create New Employee Search Team Members Create Team Member Medical Exam Expirations Import Data Expand Import Data Reminders and Documents Expand Reminders and Documents Search Reviewed Exams Export Data Reports Expand Reports System Configuration Expand System Configuration Send Welcome Email Drop Box Expand Drop Box Maintenance Expand Maintenance COVID-19 Vaccination Expand COVID-19 Vaccination" [ref=e38]:
+                          - link "Skip Navigation Links":
+                            - /url: "#ctl00_mnuMedtrack_SkipLink"
+                            - img "Skip Navigation Links"
+                          - table [ref=e39]:
+                            - rowgroup [ref=e40]:
+                              - row "Search Employees" [ref=e41]:
+                                - cell "Search Employees" [ref=e42]:
+                                  - table [ref=e43]:
+                                    - rowgroup [ref=e44]:
+                                      - row "Search Employees" [ref=e45]:
+                                        - cell "Search Employees" [ref=e46]:
+                                          - link "Search Employees" [ref=e47] [cursor=pointer]:
+                                            - /url: ../Employee/SearchEmployee.aspx
+                              - row "Create New Employee" [ref=e48]:
+                                - cell "Create New Employee" [ref=e49]:
+                                  - table [ref=e50]:
+                                    - rowgroup [ref=e51]:
+                                      - row "Create New Employee" [ref=e52]:
+                                        - cell "Create New Employee" [ref=e53]:
+                                          - link "Create New Employee" [ref=e54] [cursor=pointer]:
+                                            - /url: ../Employee/CreateEmployee.aspx
+                              - row "Search Team Members" [ref=e55]:
+                                - cell "Search Team Members" [ref=e56]:
+                                  - table [ref=e57]:
+                                    - rowgroup [ref=e58]:
+                                      - row "Search Team Members" [ref=e59]:
+                                        - cell "Search Team Members" [ref=e60]:
+                                          - link "Search Team Members" [ref=e61] [cursor=pointer]:
+                                            - /url: ../UserManagement/SearchUsers.aspx
+                              - row "Create Team Member" [ref=e62]:
+                                - cell "Create Team Member" [ref=e63]:
+                                  - table [ref=e64]:
+                                    - rowgroup [ref=e65]:
+                                      - row "Create Team Member" [ref=e66]:
+                                        - cell "Create Team Member" [ref=e67]:
+                                          - link "Create Team Member" [ref=e68] [cursor=pointer]:
+                                            - /url: ../UserManagement/CreateUser.aspx
+                              - row "Medical Exam Expirations" [ref=e69]:
+                                - cell "Medical Exam Expirations" [ref=e70]:
+                                  - table [ref=e71]:
+                                    - rowgroup [ref=e72]:
+                                      - row "Medical Exam Expirations" [ref=e73]:
+                                        - cell "Medical Exam Expirations" [ref=e74]:
+                                          - link "Medical Exam Expirations" [ref=e75] [cursor=pointer]:
+                                            - /url: ../Employee/MedicalExamExpirations.aspx
+                              - row "Import Data Expand Import Data" [ref=e76]:
+                                - cell "Import Data Expand Import Data" [ref=e77]:
+                                  - table [ref=e78]:
+                                    - rowgroup [ref=e79]:
+                                      - row "Import Data Expand Import Data" [ref=e80]:
+                                        - cell "Import Data" [ref=e81]:
+                                          - link "Import Data" [ref=e82] [cursor=pointer]:
+                                            - /url: javascript:__doPostBack('ctl00$mnuMedtrack','Import Data')
+                                        - cell "Expand Import Data" [ref=e83]:
+                                          - img "Expand Import Data" [ref=e84]
+                              - row "Reminders and Documents Expand Reminders and Documents" [ref=e85]:
+                                - cell "Reminders and Documents Expand Reminders and Documents" [ref=e86]:
+                                  - table [ref=e87]:
+                                    - rowgroup [ref=e88]:
+                                      - row "Reminders and Documents Expand Reminders and Documents" [ref=e89]:
+                                        - cell "Reminders and Documents" [ref=e90]:
+                                          - link "Reminders and Documents" [ref=e91] [cursor=pointer]:
+                                            - /url: javascript:__doPostBack('ctl00$mnuMedtrack','Reminders and Documents')
+                                        - cell "Expand Reminders and Documents" [ref=e92]:
+                                          - img "Expand Reminders and Documents" [ref=e93]
+                              - row "Search Reviewed Exams" [ref=e94]:
+                                - cell "Search Reviewed Exams" [ref=e95]:
+                                  - table [ref=e96]:
+                                    - rowgroup [ref=e97]:
+                                      - row "Search Reviewed Exams" [ref=e98]:
+                                        - cell "Search Reviewed Exams" [ref=e99]:
+                                          - link "Search Reviewed Exams" [ref=e100] [cursor=pointer]:
+                                            - /url: SearchReviewedExams.aspx
+                              - row "Export Data" [ref=e101]:
+                                - cell "Export Data" [ref=e102]:
+                                  - table [ref=e103]:
+                                    - rowgroup [ref=e104]:
+                                      - row "Export Data" [ref=e105]:
+                                        - cell "Export Data" [ref=e106]:
+                                          - link "Export Data" [ref=e107] [cursor=pointer]:
+                                            - /url: ../Export/BuildReport.aspx
+                              - row "Reports Expand Reports" [ref=e108]:
+                                - cell "Reports Expand Reports" [ref=e109]:
+                                  - table [ref=e110]:
+                                    - rowgroup [ref=e111]:
+                                      - row "Reports Expand Reports" [ref=e112]:
+                                        - cell "Reports" [ref=e113]:
+                                          - link "Reports" [ref=e114] [cursor=pointer]:
+                                            - /url: javascript:__doPostBack('ctl00$mnuMedtrack','Reports')
+                                        - cell "Expand Reports" [ref=e115]:
+                                          - img "Expand Reports" [ref=e116]
+                              - row "System Configuration Expand System Configuration" [ref=e117]:
+                                - cell "System Configuration Expand System Configuration" [ref=e118]:
+                                  - table [ref=e119]:
+                                    - rowgroup [ref=e120]:
+                                      - row "System Configuration Expand System Configuration" [ref=e121]:
+                                        - cell "System Configuration" [ref=e122]:
+                                          - link "System Configuration" [ref=e123] [cursor=pointer]:
+                                            - /url: javascript:__doPostBack('ctl00$mnuMedtrack','System Configuration')
+                                        - cell "Expand System Configuration" [ref=e124]:
+                                          - img "Expand System Configuration" [ref=e125]
+                              - row "Send Welcome Email" [ref=e126]:
+                                - cell "Send Welcome Email" [ref=e127]:
+                                  - table [ref=e128]:
+                                    - rowgroup [ref=e129]:
+                                      - row "Send Welcome Email" [ref=e130]:
+                                        - cell "Send Welcome Email" [ref=e131]:
+                                          - link "Send Welcome Email" [ref=e132] [cursor=pointer]:
+                                            - /url: ../Employee/SendWelcomeEmail.aspx
+                              - row "Drop Box Expand Drop Box" [ref=e133]:
+                                - cell "Drop Box Expand Drop Box" [ref=e134]:
+                                  - table [ref=e135]:
+                                    - rowgroup [ref=e136]:
+                                      - row "Drop Box Expand Drop Box" [ref=e137]:
+                                        - cell "Drop Box" [ref=e138]:
+                                          - link "Drop Box" [ref=e139] [cursor=pointer]:
+                                            - /url: javascript:__doPostBack('ctl00$mnuMedtrack','Drop Box')
+                                        - cell "Expand Drop Box" [ref=e140]:
+                                          - img "Expand Drop Box" [ref=e141]
+                              - row "Maintenance Expand Maintenance" [ref=e142]:
+                                - cell "Maintenance Expand Maintenance" [ref=e143]:
+                                  - table [ref=e144]:
+                                    - rowgroup [ref=e145]:
+                                      - row "Maintenance Expand Maintenance" [ref=e146]:
+                                        - cell "Maintenance" [ref=e147]:
+                                          - link "Maintenance" [ref=e148] [cursor=pointer]:
+                                            - /url: javascript:__doPostBack('ctl00$mnuMedtrack','Maintenance')
+                                        - cell "Expand Maintenance" [ref=e149]:
+                                          - img "Expand Maintenance" [ref=e150]
+                              - row "COVID-19 Vaccination Expand COVID-19 Vaccination" [ref=e151]:
+                                - cell "COVID-19 Vaccination Expand COVID-19 Vaccination" [ref=e152]:
+                                  - table [ref=e153]:
+                                    - rowgroup [ref=e154]:
+                                      - row "COVID-19 Vaccination Expand COVID-19 Vaccination" [ref=e155]:
+                                        - cell "COVID-19 Vaccination" [ref=e156]:
+                                          - link "COVID-19 Vaccination" [ref=e157] [cursor=pointer]:
+                                            - /url: javascript:__doPostBack('ctl00$mnuMedtrack','COVID-19 Vaccination')
+                                        - cell "Expand COVID-19 Vaccination" [ref=e158]:
+                                          - img "Expand COVID-19 Vaccination" [ref=e159]
+                        - cell "Medical Exam Medical History Vaccinations Tracking There are no medical exams found for this employee. Create Exam Cancel" [ref=e160]:
+                          - generic [ref=e161]:
+                            - generic [ref=e162]: Medical Exam
+                            - generic [ref=e163]: Medical History
+                            - generic [ref=e164]: Vaccinations
+                            - generic [ref=e165]: Tracking
+                          - generic [ref=e166]:
+                            - table [ref=e167]:
+                              - rowgroup [ref=e168]:
+                                - row "There are no medical exams found for this employee." [ref=e169]:
+                                  - cell
+                                  - cell
+                                  - cell "There are no medical exams found for this employee." [ref=e170]:
+                                    - generic [ref=e173]: There are no medical exams found for this employee.
+                                  - cell
+                                  - cell
+                            - table [ref=e175]:
+                              - rowgroup [ref=e176]:
+                                - row [ref=e177]:
+                                  - cell [ref=e178]
+                                  - cell [ref=e179]
+                          - generic [ref=e182]:
+                            - button "Create Exam" [ref=e183]
+                            - button "Cancel" [ref=e184]
+      - row "Help | Contact Us | Privacy Policy Intl. SOS @ Copyright 2008 International SOS" [ref=e185]:
+        - cell "Help | Contact Us | Privacy Policy Intl. SOS @ Copyright 2008 International SOS" [ref=e186]:
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - link "Help" [ref=e189] [cursor=pointer]:
+                - /url: "#"
+              - text: "|"
+              - link "Contact Us" [ref=e190] [cursor=pointer]:
+                - /url: "#"
+              - text: "|"
+              - link "Privacy Policy" [ref=e191] [cursor=pointer]:
+                - /url: javascript:var MediaPrivacyWin = window.open("https://www.internationalsos.com/privacy","MediaPrivacyWin","height=450,width=500,scrollbars,resizable");
+            - generic [ref=e192]:
+              - img "Intl. SOS" [ref=e193]
+              - text: "@ Copyright 2008 International SOS"
+  - link "Trust Guard Security Scanned" [ref=e195] [cursor=pointer]:
+    - /url: https://app.trustguard.com/certificate/www.gocare.biz
+    - img "Trust Guard Security Scanned" [ref=e196]
+```

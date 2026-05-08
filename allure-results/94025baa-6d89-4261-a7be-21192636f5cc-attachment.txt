@@ -1,0 +1,3 @@
+** On Create Employee page **
+** Body clicked and waiting for GeoMarket values to load **
+** Setting GeoMarket to: Highest **

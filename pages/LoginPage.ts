@@ -1,5 +1,4 @@
 import { Page, Locator, expect } from '@playwright/test';
-import { log } from 'node:console';
 
 export class LoginPage {
 
@@ -25,7 +24,7 @@ export class LoginPage {
         this.txtErrorMessage = page.locator("//div[@class='ErrorBg']");
     }
 
-    
+
     //action methods
     async setUsername(username: string) {
         await this.username.fill(username);
@@ -54,12 +53,13 @@ export class LoginPage {
         await this.loginSubmit.click();
     }
     async verifyLoginSuccess() {
-    //await expect(this.page.locator("text=MedFit - Search Employee")).toBeVisible();
-    await expect(this.page).toHaveTitle(/Search Employee/i);  }
-     async getloginErrorMessage(){
-        const errorMessage=await this.txtErrorMessage.textContent();
-        log(`Error message is: ${errorMessage}`);
-        return errorMessage!.trim();
+        await expect(this.page).toHaveTitle(/Search Employee/i);
+    }
+    async getloginErrorMessage(): Promise<null | string> {
+        return (this.txtErrorMessage.textContent());
+        // const errorMessage = await this.txtErrorMessage.textContent();
+        // log(`Error message is: ${errorMessage}`);
+        // return errorMessage!.trim();
     }
     async clickLogout() {
         await this.logout.click();

@@ -1,0 +1,135 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - table [ref=e3]:
+    - rowgroup [ref=e4]:
+      - row "Powered by Intl. SOS Intl. SOS Your account has been locked. Please contact International SOS for more details. Forgot Password / Unlock Account Enter your user name and password to log in User Name JyotsnaGupta Password 65 + 0 = Submit First time user? Register here as Employee or Pre-employee Doctor/Medical Center About SSL Certificates Do you have a scanned copy of your medical reports? Intl. SOS DROP BOX - Click here to send your report It is easy to send your confidential, scanned medical reports (pdf or jpeg) directly and rapidly to the International SOS Team using their totally safe and secure Drop Box Contact Us | Privacy Policy Intl. SOS @ Copyright 2008 International SOS" [ref=e5]:
+        - cell "Powered by Intl. SOS Intl. SOS Your account has been locked. Please contact International SOS for more details. Forgot Password / Unlock Account Enter your user name and password to log in User Name JyotsnaGupta Password 65 + 0 = Submit First time user? Register here as Employee or Pre-employee Doctor/Medical Center About SSL Certificates Do you have a scanned copy of your medical reports? Intl. SOS DROP BOX - Click here to send your report It is easy to send your confidential, scanned medical reports (pdf or jpeg) directly and rapidly to the International SOS Team using their totally safe and secure Drop Box Contact Us | Privacy Policy Intl. SOS @ Copyright 2008 International SOS" [ref=e6]:
+          - table [ref=e7]:
+            - rowgroup [ref=e8]:
+              - row "Powered by Intl. SOS" [ref=e9]:
+                - cell "Powered by Intl. SOS" [ref=e10]:
+                  - generic [ref=e11]:
+                    - img "Powered by Intl. SOS" [ref=e13]
+                    - table [ref=e15]:
+                      - rowgroup [ref=e16]:
+                        - row [ref=e17]:
+                          - cell [ref=e18]
+                          - cell [ref=e19]:
+                            - link:
+                              - /url: "#"
+              - row "Intl. SOS Your account has been locked. Please contact International SOS for more details. Forgot Password / Unlock Account Enter your user name and password to log in User Name JyotsnaGupta Password 65 + 0 = Submit First time user? Register here as Employee or Pre-employee Doctor/Medical Center About SSL Certificates Do you have a scanned copy of your medical reports? Intl. SOS DROP BOX - Click here to send your report It is easy to send your confidential, scanned medical reports (pdf or jpeg) directly and rapidly to the International SOS Team using their totally safe and secure Drop Box Contact Us | Privacy Policy Intl. SOS @ Copyright 2008 International SOS" [ref=e20]:
+                - cell "Intl. SOS Your account has been locked. Please contact International SOS for more details. Forgot Password / Unlock Account Enter your user name and password to log in User Name JyotsnaGupta Password 65 + 0 = Submit First time user? Register here as Employee or Pre-employee Doctor/Medical Center About SSL Certificates Do you have a scanned copy of your medical reports? Intl. SOS DROP BOX - Click here to send your report It is easy to send your confidential, scanned medical reports (pdf or jpeg) directly and rapidly to the International SOS Team using their totally safe and secure Drop Box Contact Us | Privacy Policy Intl. SOS @ Copyright 2008 International SOS" [ref=e21]:
+                  - table [ref=e22]:
+                    - rowgroup [ref=e23]:
+                      - row "Intl. SOS Your account has been locked. Please contact International SOS for more details. Forgot Password / Unlock Account Enter your user name and password to log in User Name JyotsnaGupta Password 65 + 0 = Submit First time user? Register here as Employee or Pre-employee Doctor/Medical Center About SSL Certificates Do you have a scanned copy of your medical reports? Intl. SOS DROP BOX - Click here to send your report It is easy to send your confidential, scanned medical reports (pdf or jpeg) directly and rapidly to the International SOS Team using their totally safe and secure Drop Box Contact Us | Privacy Policy Intl. SOS @ Copyright 2008 International SOS" [ref=e24]:
+                        - cell [ref=e25]
+                        - cell "Intl. SOS Your account has been locked. Please contact International SOS for more details. Forgot Password / Unlock Account Enter your user name and password to log in User Name JyotsnaGupta Password 65 + 0 = Submit First time user? Register here as Employee or Pre-employee Doctor/Medical Center About SSL Certificates Do you have a scanned copy of your medical reports? Intl. SOS DROP BOX - Click here to send your report It is easy to send your confidential, scanned medical reports (pdf or jpeg) directly and rapidly to the International SOS Team using their totally safe and secure Drop Box Contact Us | Privacy Policy Intl. SOS @ Copyright 2008 International SOS" [ref=e26]:
+                          - generic [ref=e28]:
+                            - img "Intl. SOS" [ref=e30]
+                            - table [ref=e32]:
+                              - rowgroup [ref=e33]:
+                                - row "Your account has been locked. Please contact International SOS for more details." [ref=e34]:
+                                  - cell "Your account has been locked. Please contact International SOS for more details." [ref=e35]:
+                                    - table [ref=e36]:
+                                      - rowgroup [ref=e37]:
+                                        - row "Your account has been locked. Please contact International SOS for more details." [ref=e38]:
+                                          - cell [ref=e39]
+                                          - cell "Your account has been locked. Please contact International SOS for more details." [ref=e40]:
+                                            - table [ref=e41]:
+                                              - rowgroup [ref=e42]:
+                                                - row "Your account has been locked. Please contact International SOS for more details." [ref=e43]:
+                                                  - cell
+                                                  - cell
+                                                  - cell
+                                                  - cell "Your account has been locked. Please contact International SOS for more details." [ref=e44]:
+                                                    - generic [ref=e47]: Your account has been locked. Please contact International SOS for more details.
+                                                  - cell
+                                          - cell [ref=e48]
+                            - link "Forgot Password / Unlock Account" [ref=e51] [cursor=pointer]:
+                              - /url: UserManagement/ForgotPasswordUserName.aspx
+                            - table [ref=e52]:
+                              - rowgroup [ref=e53]:
+                                - row "Enter your user name and password to log in User Name JyotsnaGupta Password 65 + 0 = Submit First time user? Register here as Employee or Pre-employee Doctor/Medical Center About SSL Certificates Do you have a scanned copy of your medical reports? Intl. SOS DROP BOX - Click here to send your report It is easy to send your confidential, scanned medical reports (pdf or jpeg) directly and rapidly to the International SOS Team using their totally safe and secure Drop Box" [ref=e54]:
+                                  - cell [ref=e55]:
+                                    - img [ref=e56]
+                                  - cell "Enter your user name and password to log in User Name JyotsnaGupta Password 65 + 0 = Submit First time user? Register here as Employee or Pre-employee Doctor/Medical Center About SSL Certificates" [ref=e57]:
+                                    - generic [ref=e58]:
+                                      - generic [ref=e59]:
+                                        - table [ref=e60]:
+                                          - rowgroup [ref=e61]:
+                                            - row "Enter your user name and password to log in" [ref=e62]:
+                                              - cell "Enter your user name and password to log in" [ref=e63]:
+                                                - generic [ref=e64]: Enter your user name and password to log in
+                                            - row "User Name JyotsnaGupta" [ref=e65]:
+                                              - cell [ref=e66]:
+                                                - img [ref=e67]
+                                              - cell "User Name" [ref=e68]
+                                              - cell "JyotsnaGupta" [ref=e69]:
+                                                - textbox [ref=e70]: JyotsnaGupta
+                                            - row "Password" [ref=e71]:
+                                              - cell "Password" [ref=e72]
+                                              - cell [ref=e73]:
+                                                - textbox [ref=e74]
+                                            - row [ref=e75]:
+                                              - cell [ref=e76]
+                                            - row "65 + 0 = Submit" [ref=e77]:
+                                              - cell "65 + 0 = Submit" [ref=e78]:
+                                                - generic [ref=e82]:
+                                                  - text: 65 + 0 =
+                                                  - textbox "Captcha Input" [ref=e83]
+                                                  - button "Submit" [disabled] [ref=e84]
+                                        - generic [ref=e85]:
+                                          - generic [ref=e86]: First time user? Register here as
+                                          - paragraph [ref=e88]:
+                                            - link "Employee or Pre-employee" [ref=e89] [cursor=pointer]:
+                                              - /url: UserManagement/EmployeeRegistration.aspx
+                                          - paragraph [ref=e91]:
+                                            - link "Doctor/Medical Center" [ref=e92] [cursor=pointer]:
+                                              - /url: UserManagement/ProviderRegistration.aspx
+                                      - table [ref=e94]:
+                                        - rowgroup [ref=e95]:
+                                          - row "About SSL Certificates" [ref=e96]:
+                                            - cell "About SSL Certificates" [ref=e97]:
+                                              - img [ref=e99]
+                                              - link "About SSL Certificates" [ref=e101] [cursor=pointer]:
+                                                - /url: javascript:var MediaPrivacyWin = window.open("https://www.internationalsos.com/emergencyrecord/secure/main.cfm?lang=en&var1=0&CustNo=&Page=2","MediaPrivacyWin","height=450,width=500,scrollbars,resizable");
+                                  - cell [ref=e102]
+                                  - cell "Do you have a scanned copy of your medical reports? Intl. SOS DROP BOX - Click here to send your report It is easy to send your confidential, scanned medical reports (pdf or jpeg) directly and rapidly to the International SOS Team using their totally safe and secure Drop Box" [ref=e104]:
+                                    - generic [ref=e106]:
+                                      - generic [ref=e107]: Do you have a scanned copy of your medical reports?
+                                      - link "Intl. SOS DROP BOX - Click here to send your report" [ref=e109] [cursor=pointer]:
+                                        - /url: DropboxLogin.aspx
+                                      - paragraph [ref=e111]:
+                                        - text: It is easy to send your confidential, scanned medical
+                                        - text: reports (pdf or jpeg) directly and rapidly to the International
+                                        - text: SOS Team using their totally safe and secure Drop Box
+                                    - img [ref=e113]
+                            - generic [ref=e114]:
+                              - link "Contact Us" [ref=e115] [cursor=pointer]:
+                                - /url: javascript:var ContactUs = window.open("../StaticContent/public-contact-us.html","ContactUs","height=640,width=942,scrollbars,resizable");ContactUs.focus();
+                              - text: "|"
+                              - link "Privacy Policy" [ref=e116] [cursor=pointer]:
+                                - /url: javascript:var MediaPrivacyWin = window.open("https://www.internationalsos.com/privacy","MediaPrivacyWin","height=450,width=500,scrollbars,resizable");
+                            - generic [ref=e117]:
+                              - img "Intl. SOS" [ref=e118]
+                              - text: "@ Copyright 2008 International SOS"
+      - row "Contact Us | Privacy Policy Intl. SOS @ Copyright 2008 International SOS" [ref=e119]:
+        - cell "Contact Us | Privacy Policy Intl. SOS @ Copyright 2008 International SOS" [ref=e120]:
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - link:
+                - /url: "#"
+              - link "Contact Us" [ref=e123] [cursor=pointer]:
+                - /url: "#"
+              - text: "|"
+              - link "Privacy Policy" [ref=e124] [cursor=pointer]:
+                - /url: javascript:var MediaPrivacyWin = window.open("https://www.internationalsos.com/privacy","MediaPrivacyWin","height=450,width=500,scrollbars,resizable");
+            - generic [ref=e125]:
+              - img "Intl. SOS" [ref=e126]
+              - text: "@ Copyright 2008 International SOS"
+  - link "Trust Guard Security Scanned" [ref=e128] [cursor=pointer]:
+    - /url: https://app.trustguard.com/certificate/www.gocare.biz
+    - img "Trust Guard Security Scanned" [ref=e129]
+```

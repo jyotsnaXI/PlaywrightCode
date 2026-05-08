@@ -1,0 +1,75 @@
+** User is on search employee page **
+Table Exist!
+Number of rows in the table: 2
+Row 1: 
+			 
+                                Last Name
+                                
+                                
+                            
+                                First Name
+                                
+                                
+                            
+                                GIN Number
+                                
+                                
+                            
+                                Date Of Birth
+                                
+                                
+                            
+                                Last Exam Date
+                                
+                                 
+                                 
+                            
+                                Certificate Expiry Date
+                                
+                                 
+                                 
+                            
+                                Fitness Status
+                                
+                                
+                            
+                                Status
+                                
+                                
+                            
+                                Company
+                                
+                                
+                            
+		
+Row 2: 
+			
+                                
+                            
+                                
+                                    BP
+                                
+                            
+                                
+                                    Automation
+                                
+                            
+                                7915
+                            
+                                01-Mar-1980
+                            
+                                
+                            
+                                
+                            
+                                
+                                
+                            
+                                Active
+                            
+                                
+                                bp International Limited
+                            
+		
+Record with GIN 7915 exists in the table.
+** User is on Medical Exam Information Page **

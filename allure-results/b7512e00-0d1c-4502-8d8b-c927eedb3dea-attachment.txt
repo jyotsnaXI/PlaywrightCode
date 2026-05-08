@@ -1,0 +1,5 @@
+** User is on search employee page **
+❌ Record not found.
+Message: 
+                        There are no employees available for the search performed.
+                    

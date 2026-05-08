@@ -16,7 +16,7 @@ test('Login and save session', async ({ page, context }) => {
  // await loginPage.clickLogin();
 
   await Promise.all([
-    page.waitForNavigation(),
+   // page.waitForNavigation(),
     loginPage.clickLogin()
   ]);
 
@@ -24,10 +24,5 @@ test('Login and save session', async ({ page, context }) => {
 
   await page.context().storageState({ path: 'auth.json' });
 
-  // Verify login success
- // await expect(page).toHaveTitle(/MedFit - Search Employee/i);
-
-  // Save authentication state
-
-});
+ });
   

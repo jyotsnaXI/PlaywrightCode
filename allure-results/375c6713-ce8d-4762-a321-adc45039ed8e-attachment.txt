@@ -1,0 +1,2 @@
+** On Create Employee page **
+** Creation outcome: The employee  Weber Automation (GIN number: 687194)  has been successfully created in the system. You can create a medical exam. **

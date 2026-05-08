@@ -1,0 +1,4 @@
+** User is on search employee page **
+Table Exist!
+Number of rows in the table: 2
+Record with GIN 3400045 not found.

@@ -1,0 +1,3 @@
+** On Create Employee page **
+GeoMarket options: [ 'Select GeoMarket', 'Higher', 'Highest', 'Low' ]
+** Creation outcome: The employee  BPOne Automation (GIN number: 4765387)  has been successfully created in the system. You can create a medical exam. **

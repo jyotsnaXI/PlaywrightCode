@@ -1,0 +1,7 @@
+** User is on search employee page **
+❌ No records found
+
+                        There are no employees available for the search performed.
+                    
+Number of rows in the table: 0
+Record with GIN 3400045 not found.

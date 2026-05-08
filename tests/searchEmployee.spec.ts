@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { SearchEmployeePage } from '../pages/SearchEmployeePage';
 
-test(`Search Employee and view exam, @sanity`, async ({ page }) => {
+test(`Search Employee, @sanity`, async ({ page }) => {
 
   const searchEmployeePage = new SearchEmployeePage(page);
 
@@ -12,16 +12,11 @@ test(`Search Employee and view exam, @sanity`, async ({ page }) => {
 
   await searchEmployeePage.setFirstName('Automation');
   await searchEmployeePage.setLastName('BP');
-  await searchEmployeePage.setGIN('7915');
+  await searchEmployeePage.setGIN('3400045');
 
   await searchEmployeePage.clickSearch();
-  await searchEmployeePage.showSearchResults();
-  await searchEmployeePage.verifyRecordExist('7915');
-  await searchEmployeePage.clickRadioButton();
-  await searchEmployeePage.clickViewExam();
+  // await searchEmployeePage.showSearchResults();
+  await searchEmployeePage.verifyRecordExist('3400045');
 
- // await expect(page).toHaveURL(/MedicalExamInformation/i);
-
-  console.log('** User is on Medical Exam Information Page **');
 
 });

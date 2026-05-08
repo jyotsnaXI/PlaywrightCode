@@ -1,0 +1,2 @@
+** On Create Employee page **
+** Creation outcome: The employee  BPThree Automation (GIN number: 4700387)  has been successfully created in the system. You can create a medical exam. **

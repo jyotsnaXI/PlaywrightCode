@@ -7,9 +7,9 @@ export default defineConfig({
   timeout: 30 * 1000, //30000 ms(30 secs) 
   fullyParallel: false, 
   //retries: process.env.CI ? 2 : 0, 
-  retries:1, 
+  retries: 0, 
   //workers: process.env.CI ? 1 : undefined, 
-  workers: 1,
+  workers: 2,
 
  reporter: [ 
   ['html'], 
@@ -35,13 +35,12 @@ use: {
       name: 'setup',
       testMatch: /auth\.setup\.ts/,
     },
+    
     {
-      name: 'tests',
-      dependencies: ['setup'],
-    },
-    {
-      name: 'chromium', use: { ...devices['Desktop Chrome'] },
-    },
+    name: 'chromium',
+    use: { ...devices['Desktop Chrome'] },
+    dependencies: ['setup'], // 👈 move dependency here
+  },
 /*
     {
       name: 'firefox', use: { ...devices['Desktop Firefox'] },

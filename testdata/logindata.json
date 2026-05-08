@@ -2,13 +2,14 @@
     {
         "testName": "Valid login",
         "username": "JyotsnaGupta",
-        "password": "Xebia@1234567",
+        "password": "Admin@123456",
         "expectedResult": "success"
     },
     {
-        "testName": "Invalid password",
-        "username": "JyotsnaGupta",
-        "password": "wrongpassword",
+        "testName": "Invalid login",
+        "username": "JyotsnaGupta12",
+        "password": "Xebia@1234567",
         "expectedResult": "failure"
     }
+    
 ]

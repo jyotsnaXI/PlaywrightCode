@@ -1,0 +1,13 @@
+** User is on search employee page **
+Search heading text: 
+                    
+                        
+                            
+                                
+                                    Search Result
+                            
+                        
+                    
+                
+Search result is true
+** User is on Medical Exam Information Page **

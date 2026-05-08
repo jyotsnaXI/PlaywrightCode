@@ -1,39 +1,30 @@
 
-// pages/CreateEmployeePage.ts
 import { expect, Locator, Page } from '@playwright/test';
-
-type EmpStatusOptions = {
-  recruiterLastName?: string;
-  recruiterEmail?: string;
-};
+import { utils } from 'xlsx';
+import { RandomDataGenerator } from '../utils/randomDataGenerator';
 
 export class CreateEmployeePage {
   readonly page: Page;
 
-  // ====== Locators (mirroring Selenium IDs) ======
+  // =========== Locators ==========
   private pageTitle: Locator;
-  private createNewEmpSidebarLink: Locator;
-
+  private sideMenuBar: Locator;
   private drpEmployeeStatus: Locator;
   private drpTitle: Locator;
   private drpGender: Locator;
   private drpMaritalStatus: Locator;
   private drpCompany: Locator;
-
   private lastName: Locator;
   private firstName: Locator;
   private dateOfBirth: Locator;
   private txtGINNumber: Locator;
   private txtApplicantID: Locator;
-
   private primaryEmail: Locator;
   private secondaryEmail: Locator;
   private empCategory: Locator;
-
   private recLastName: Locator;
   private recEmail: Locator;
   private recAddButton: Locator;
-
   private empCreationSuccMsg: Locator;
 
   // Michelin + others
@@ -62,8 +53,7 @@ export class CreateEmployeePage {
     this.page = page;
 
     this.pageTitle = page.locator('#divMainHeading');
-    this.createNewEmpSidebarLink = page.getByRole('link', { name: /Create New Employee/i });
-
+    this.sideMenuBar = page.getByRole('link', { name: /Create New Employee/i });
     this.drpEmployeeStatus = page.locator('#ctl00_MedtrackContentPlaceHolder_ddlType');
     this.drpTitle = page.locator('#ctl00_MedtrackContentPlaceHolder_ddlTitle');
     this.drpGender = page.locator('#ctl00_MedtrackContentPlaceHolder_ddlSex');
@@ -115,33 +105,47 @@ export class CreateEmployeePage {
     await this.page.goto(path);
     await this.page.waitForLoadState('domcontentloaded');
     // Best-effort heading wait (not all pages have ARIA headings)
-    await this.pageTitle.first().waitFor({ state: 'visible', timeout: 5000 }).catch(() => {});
+    await this.pageTitle.first().waitFor({ state: 'visible', timeout: 5000 }).catch(() => { });
   }
 
   /**
    * Use top nav link (if present on your current page).
    */
   async clickNewEmployeeLink() {
-    await this.createNewEmpSidebarLink.click();
+    await this.sideMenuBar.click();
     await this.page.waitForLoadState('domcontentloaded');
   }
 
+  // async setGIN(gin: number) {
+  //   await this.txtGINNumber.fill(gin.toString());
+  // }
+
+  // async setApplicationID(applicationId: number) {
+  //   await this.txtApplicantID.fill(applicationId.toString());
+  // }
+
   // =========== Field Setters ===========
 
-  async setEmpStatus(status: string, opts: EmpStatusOptions = {}) {
+  async setEmpStatus(status: string) {
     await this.drpEmployeeStatus.selectOption({ label: status });
 
     // Mirror your Java branching:
-    if ('Pre-employee' === status) {
-      const recruiterLastName = opts.recruiterLastName ?? 'mark';
-      const recruiterEmail = opts.recruiterEmail ?? 'gpt.jyotsna@gmail.com';
 
+    if ('Pre-employee' === status) {
+      const applicantId = RandomDataGenerator.getrandomInt(2, 6);
+      await this.txtApplicantID.fill(applicantId.toString());
+      const recruiterLastName = 'mark';
+      const recruiterEmail = 'gpt.jyotsna@gmail.com';
+      await this.txtApplicantID.fill(String(applicantId));
       await this.setRecLastName(recruiterLastName);
       await this.setRecMail(recruiterEmail);
       await this.clickRecAddButton();
     }
-    // If Active, your Java code generates a random GIN there.
-    // In Playwright, we prefer generating and passing GIN from the test.
+    if ('Active' === status) {
+      const gin = await RandomDataGenerator.generateNumber(6);
+      await this.txtGINNumber.fill(String(gin));
+    }
+
   }
 
   async setTitle(title: string) {
@@ -168,34 +172,22 @@ export class CreateEmployeePage {
     // e.g., "19-Jul-1990" — align with your app’s accepted format
     await this.dateOfBirth.fill(value);
   }
-
   async setCompany(company: string) {
+    await this.drpCompany.click();
     await this.drpCompany.selectOption({ label: company });
+    await this.page.mouse.click(0, 0);    // Click outside (trigger UI logic)
+    await this.page.waitForFunction(() => {
+      const select = document.querySelector('#ctl00_MedtrackContentPlaceHolder_ddlGeoMarket') as HTMLSelectElement;
+      return select && select.options.length > 1;
+    });
 
-    // Mirror your Java branch logic:
-   if ("bp International Limited" === company || "bp USA" === company) {
-      await this.setPostalCode();
-      await this.setCity();
-      await this.waitForPageToSettle();
+    if (company === "bp International Limited" || company === "bp USA") {
       await this.setGeoMarket('Highest');
       await this.setAdditionalInfo();
     }
   }
-
-  async setGIN(value: number | string) {
-    await this.txtGINNumber.fill(String(value));
-    
-  await this.txtGINNumber.waitFor({ state: 'visible' });
-  await this.txtGINNumber.fill(String(value))
-
-  }
-
-  async setApplicationID(value: string) {
-    await this.txtApplicantID.fill(value);
-  }
-
   async setPriEmail(email: string) {
-    await this.primaryEmail.fill(email);
+    await this.primaryEmail.type(email);
   }
 
   async setSeconEmail(email: string) {
@@ -243,11 +235,10 @@ export class CreateEmployeePage {
   }
 
   async setGeoMarket(value: string) {
-    await this.drpGeoMarket.scrollIntoViewIfNeeded();
-    await this.waitForPageToSettle();
+    await this.drpGeoMarket.waitFor({ state: 'visible' });
+    const options = await this.drpGeoMarket.locator('option').allTextContents();
     await this.drpGeoMarket.selectOption({ label: value });
   }
-
   async setBusinessArea(value: string) {
     await this.drpBusinessArea.selectOption({ label: value });
   }
@@ -280,7 +271,7 @@ export class CreateEmployeePage {
   async getCreationOutcome(): Promise<{ isSuccess: boolean; text: string }> {
     await this.waitForPageToSettle();
     const box = this.successOrErrorAlert.first();
-    await box.waitFor({ state: 'visible', timeout: 10000 }).catch(() => {});
+    await box.waitFor({ state: 'visible', timeout: 10000 }).catch(() => { });
     const text = (await box.textContent())?.trim() ?? '';
     const isSuccess = /success/i.test(text) || /has been successfully created/i.test(text);
     return { isSuccess, text };
@@ -301,14 +292,14 @@ export class CreateEmployeePage {
    */
   async waitForPageToSettle() {
     await this.page.waitForLoadState('domcontentloaded');
-    await this.page.waitForLoadState('networkidle').catch(() => {});
+    await this.page.waitForLoadState('networkidle').catch(() => { });
     await this.waitForLoaderToDisappear();
   }
 
   async waitForLoaderToDisappear() {
     const loader = this.page.locator('.loading, .loader, #loader, .ajax-loader');
     if (await loader.first().isVisible().catch(() => false)) {
-      await loader.first().waitFor({ state: 'hidden', timeout: 15000 }).catch(() => {});
+      await loader.first().waitFor({ state: 'hidden', timeout: 15000 }).catch(() => { });
     }
   }
 

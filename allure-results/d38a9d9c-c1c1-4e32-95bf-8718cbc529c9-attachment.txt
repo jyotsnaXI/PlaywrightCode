@@ -1,0 +1,2 @@
+** On Create Employee page **
+** Creation outcome: The employee  Strosin-Jacobs Automation (GIN number: 384514)  has been successfully created in the system. You can create a medical exam. **

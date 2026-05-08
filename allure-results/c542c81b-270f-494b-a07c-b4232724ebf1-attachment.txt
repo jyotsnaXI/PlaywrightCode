@@ -1,0 +1,3 @@
+** On Create Employee page **
+GeoMarket options: [ 'Select GeoMarket', 'Higher', 'Highest', 'Low' ]
+** Creation outcome: This employee already exists in the system. **
