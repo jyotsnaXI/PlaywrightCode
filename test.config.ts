@@ -3,8 +3,8 @@ export class TestConfig{
     appUrl="https://gocare.msbedrock.com/"
 
     //valid login credentials- create your own login account
-    username="JyotsnaGupta"
-    password="Admin@123456"
+    username="XXXXXX"
+    password="XXXXXX"
     capchaInputField=""
 
     //product details
